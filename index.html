@@ -56,18 +56,22 @@
       margin-top: 5px;
     }
   </style>
-  <body>
+  <body
+    style="
+      display: flex;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+    "
+  >
     <div class="main">
       <div
         class="container1"
         style="
-          background-image: linear-gradient(
+          background: linear-gradient(
             to bottom,
-            #43005f,
-            #3b0061,
-            #320064,
-            #250066,
-            #120069
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%)
           );
         "
       >
@@ -83,13 +87,10 @@
         </p>
         <div
           style="
-            background-image: linear-gradient(
-              to top,
-              #43005f,
-              #3b0061,
-              #320064,
-              #250066,
-              #120069
+            background: linear-gradient(
+              to bottom,
+              hsl(252, 100%, 67%),
+              hsl(241, 81%, 54%)
             );
             width: 150px;
             align-items: center;
